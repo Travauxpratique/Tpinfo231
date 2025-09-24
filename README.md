@@ -16,43 +16,34 @@ L’utilisateur interagit via un menu et peut choisir parmi différentes fonctio
 ##  Fonctionnalités disponibles
 Le menu propose les opérations suivantes :  
 
-1. **Somme de matrices**  
-   - Additionne deux matrices de même taille.  
-
-2. **Produit de matrices**  
-   - Multiplie deux matrices (si le nombre de colonnes de A = nombre de lignes de B).  
-
-3. **Recherche séquentielle**  
-   - Recherche un élément dans un tableau (retourne sa position ou indique s’il n’existe pas).  
-
-4. **Produit `a × b` en utilisant uniquement `+1`**  
-   - Simule la multiplication par additions successives en utilisant uniquement +1 .  
-
-5. **Tester si un tableau est trié**  
-   - Vérifie si un tableau est croissant.  
-
-6. **Médiane d’un tableau**  
-   - Trie une copie du tableau et retourne la médiane.  
-
-7. **Inverser un tableau**  
-   - Inverse les éléments du tableau.  
-
-8. **Produit vectoriel**  
-   - Calcule le produit vectoriel entre deux vecteurs 3D.  
-
-9. **Produit vecteur × matrice**  
-   - Multiplie un vecteur par une matrice.  
-
-0. **Quitter**  
-
+|        Opérations                |       Description                                 |  Complexité   |
+|----------------------------------|-----------------------------------------------------------------         
+| Somme de matrices                | Additionne deux matrices de même taille           |    O(n×m)     |
+---------------------------------------------------------------------------------------------------------
+| Produit de matrices              | Multiplie deux matrices (si colonnes A = lignes B)|    O(n×m×p)   | 
+--------------------------------------------------------------------------------------------------------
+| Recherche séquentielle           | Recherche un élément dans un tableau              |    O(n)       |
+--------------------------------------------------------------------------------------------------------
+| Produit a × b avec +1            | Multiplication par additions successives          |    O(a×b)     |
+--------------------------------------------------------------------------------------------------------
+| Tester si un tableau est trié    | Vérifie si un tableau est croissant               |    O(n)       |
+--------------------------------------------------------------------------------------------------------
+| Médiane d’un tableau             | Trie une copie et retourne la médiane             |    O(n²)      |
+--------------------------------------------------------------------------------------------------------
+| Inverser un tableau              | Inverse les éléments du tableau                   |    O(n)       |
+--------------------------------------------------------------------------------------------------------
+| Produit vectoriel                | Calcule le produit vectoriel de deux vecteurs     |    O(1)       |
+--------------------------------------------------------------------------------------------------------
+| Produit vecteur × matrice        | Multiplie un vecteur par une matrice              |    O(n×m)     |
+| Quitter                          | Sort du programme | - | - | - |
 ---
 
 ##  Compilation et exécution
 
 ### 1. Compilation
 ```bash
-gcc main.c fichier.c -o programme
-    ou
-make clean
-make
+gcc main.c fichier.c -o programme ou make
+
+### 2. Execution
+```bash
 ./main
