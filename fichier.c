@@ -56,7 +56,6 @@ int estTrie(int tab[], int n) {
 
 // 6. Médiane 
 float mediane(int tab[], int n) {
-    // Créer une copie pour ne pas modifier le tableau original
     int temp[n];
     for (int i = 0; i < n; i++) {
         temp[i] = tab[i];
