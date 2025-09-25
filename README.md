@@ -18,18 +18,18 @@ L’utilisateur interagit via un menu et peut choisir parmi différentes fonctio
 
 ## Fonctionnalités disponibles
 
-| Opération                       | Description                                    |      
-|---------------------------------|-----------------------------------------------|
-| Somme de matrices                | Additionne deux matrices de même taille      | 
-| Produit de matrices              | Multiplie deux matrices (colonnes A = lignes B) | 
-| Recherche séquentielle           | Recherche un élément dans un tableau          | 
-| Produit a × b avec +1            | Multiplication par additions successives      | 
-| Tester si un tableau est trié    | Vérifie si un tableau est croissant           | 
-| Médiane d’un tableau             | Trie une copie et retourne la médiane         | 
-| Inverser un tableau              | Inverse les éléments du tableau               | 
-| Produit vectoriel                | Calcule le produit vectoriel de deux vecteurs | 
-| Produit vecteur × matrice        | Multiplie un vecteur par une matrice          | 
-| Quitter                          | Sort du programme                              |               
+| Opération                       | Description                                    | Complexité      |
+|---------------------------------|-----------------------------------------------|----------------|
+| Somme de matrices                | Additionne deux matrices de même taille      | O(n×n)         |
+| Produit de matrices              | Multiplie deux matrices (colonnes A = lignes B) | O(n×n×n)     |
+| Recherche séquentielle           | Recherche un élément dans un tableau          | O(n)           |
+| Produit a × b avec +1            | Multiplication par additions successives      | O(n)         |
+| Tester si un tableau est trié    | Vérifie si un tableau est croissant           | O(n)           |
+| Médiane d’un tableau             | Trie une copie et retourne la médiane         | O(n²)          |
+| Inverser un tableau              | Inverse les éléments du tableau               | O(n)           |
+| Produit vectoriel                | Calcule le produit vectoriel de deux vecteurs | O(1)           |
+| Produit vecteur × matrice        | Multiplie un vecteur par une matrice          | O(n×m)         |
+| Quitter                          | Sort du programme                              | -              |
 
 ---
 
